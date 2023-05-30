@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Cookie|Fredericka+the+Great");
+
+body{
+    background-image: url('../src/fondos/bgMIXcafe.jpg');
+}
+
+h1, h2, h3{
+    font-family: "Mystery Quest", cursive, bold;
+    font-size: 200%;
+}
+
+.padre {
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.hijo {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    align-content: center;
+}
+
+table{
+    margin: auto;
+    border-spacing: 0px;
+    border-color: bold;
+    border: white 8px ridge;
+}
+
+header {
+    padding: 10px;
+    background-image: url('../src/fondos/bgGREGASmorado.jpg');
+}
+
+footer {
+    padding: 10px;
+    margin: auto;
+    background-image: url('../src/fondos/bgGREGASmorado.jpg');
+}
+
+.casilla {
+    width:100px; height:100px;
+    border: 0px;
+    padding: 0px;
+    padding:5px;     
+    text-align:center;  
+    border: 1px solid #A3C1C8;
+    cursor: pointer;   
+ } 
+
+div.casilla {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
